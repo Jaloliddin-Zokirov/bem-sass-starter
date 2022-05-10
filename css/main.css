@@ -362,6 +362,7 @@ body {
           flex-direction: column;
   height: 100%;
   margin: 0;
+  background-color: aqua;
 }
 
 main {
@@ -393,5 +394,67 @@ img {
   width: 1380px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  width: 400px;
+  height: 513px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(86%, #fff), color-stop(86%, #6a96d8));
+  background-image: linear-gradient(0deg, #fff 86%, #6a96d8 86%);
+  background-color: #6A96D8;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 28px;
+}
+
+.hero__span {
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.hero__title {
+  margin: 0;
+  color: #fff;
+}
+
+.hero__x {
+  width: 14px;
+  height: 14px;
+  margin-left: auto;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 20px;
+}
+
+.about__span {
+  display: inline-block;
+  width: 145px;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.about__title {
+  margin: 0 10px 0;
+  font-size: 14px;
+  color: #ddd;
 }
 /*# sourceMappingURL=main.css.map */
