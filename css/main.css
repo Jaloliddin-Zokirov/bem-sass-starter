@@ -390,7 +390,8 @@ img {
 }
 
 .container {
-  width: 1380px;
+  width: 100%;
+  max-width: 0;
   margin: 0 auto;
   padding: 0 20px;
 }
